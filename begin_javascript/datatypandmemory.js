@@ -35,7 +35,7 @@ console.log(typeof myObj);
 //******************************************************/
 
 
-//memory -> Stack(primitive) and heapa(non-primitive)
+//memory -> Stack(primitive) and heap(non-primitive)
 
 let one1 = "onemoreshot"
 let new1 = one1
