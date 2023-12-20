@@ -21,12 +21,12 @@
 //---------------------------------------------------------//
 
 //->truthy
-const mainValue = "omkar.google"
-if(mainValue){
-    console.log("COntain data ");
-}else{
-    console.log("bye");
-}
+// const mainValue = "omkar.google"
+// if(mainValue){
+//     console.log("COntain data ");
+// }else{
+//     console.log("bye");
+// }
 /*->fasley values false, 0, -0, Bigint 0n, "", null, undefined, Nan
 *///->Gives false 
 
@@ -38,6 +38,6 @@ if(mainValue){
 // }
 
 const obj = {}
-if(Object.keys(obj.keys)=== 0){
+if(Object.keys(obj).length === 0){
     console.log("Empty object");
 }
