@@ -38,6 +38,6 @@ if(mainValue){
 // }
 
 const obj = {}
-if(Object.keys(obj)=== 0){
+if(Object.keys(obj.keys)=== 0){
     console.log("Empty object");
 }
